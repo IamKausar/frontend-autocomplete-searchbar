@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search-input-bar {
+  width: 20rem;
+  padding: 0.25rem;
+}
+
+.result-container {
+  width: 20rem;
+  max-height: 25rem;
+  /* border: 1px solid black; */
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: antiquewhite;
+  padding: 0 0.25rem;
+  gap: 0.5rem;
+}
+
+.search-result {
+  /* display: block; */
+  /* margin: 0 0.25rem; */
+}
